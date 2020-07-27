@@ -3,6 +3,8 @@
 ### Description
 This repository *contains* an HTML/CSS/JS forest wallpaper which uses parallax scrolling, particles and animations based on a static one, for use with Lively / Wallpaper Engine
 
+### Live Preview: https://github.com/Pabilo8/forest-wallpaper   
+
 ### Credits
 Author [@Pabilo8](https://github.com/Pabilo8/)  
 
