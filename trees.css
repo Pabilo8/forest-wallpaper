@@ -1,0 +1,454 @@
+
+@-webkit-keyframes animateTrees0 {
+    0% {
+        transform: scale(0.125) skew(-3deg);
+    }
+    25% {
+        transform: scale(0.125) skew(0deg);
+    }
+    50% {
+        transform: scale(0.125) skew(3deg);
+    }
+    75% {
+        transform: scale(0.125) skew(0deg);
+    }
+    100% {
+        transform: scale(0.125) skew(-3deg);
+    }
+}
+
+@keyframes animateTrees1 {
+    0% {
+        transform: scale(0.35) skew(-6deg);
+    }
+    25% {
+        transform: scale(0.35) skew(0deg);
+    }
+    50% {
+        transform: scale(0.35) skew(6deg);
+    }
+    75% {
+        transform: scale(0.35) skew(0deg);
+    }
+    100% {
+        transform: scale(0.35) skew(-6deg);
+    }
+}
+
+@-webkit-keyframes animateTrees1 {
+    0% {
+        transform: scale(0.35) skew(-6deg);
+    }
+    25% {
+        transform: scale(0.35) skew(0deg);
+    }
+    50% {
+        transform: scale(0.35) skew(6deg);
+    }
+    75% {
+        transform: scale(0.35) skew(0deg);
+    }
+    100% {
+        transform: scale(0.35) skew(-6deg);
+    }
+}
+
+@keyframes animateTrees2 {
+    0% {
+        transform: scale(0.35) skew(8deg);
+    }
+    25% {
+        transform: scale(0.35) skew(0deg);
+    }
+    50% {
+        transform: scale(0.35) skew(-8deg);
+    }
+    75% {
+        transform: scale(0.35) skew(0deg);
+    }
+    100% {
+        transform: scale(0.35) skew(8deg);
+    }
+}
+
+@-webkit-keyframes animateTrees2 {
+    0% {
+        transform: scale(0.35) skew(8deg);
+    }
+    25% {
+        transform: scale(0.35) skew(0deg);
+    }
+    50% {
+        transform: scale(0.35) skew(-8deg);
+    }
+    75% {
+        transform: scale(0.35) skew(0deg);
+    }
+    100% {
+        transform: scale(0.35) skew(8deg);
+    }
+}
+
+@keyframes animateTrees3 {
+    0% {
+        transform: scale(0.4) skew(-3deg);
+    }
+    25% {
+        transform: scale(0.4) skew(0deg);
+    }
+    50% {
+        transform: scale(0.4) skew(3deg);
+    }
+    75% {
+        transform: scale(0.4) skew(0deg);
+    }
+    100% {
+        transform: scale(0.4) skew(-3deg);
+    }
+}
+
+@-webkit-keyframes animateTrees3 {
+    0% {
+        transform: scale(0.4) skew(-3deg);
+    }
+    25% {
+        transform: scale(0.4) skew(0deg);
+    }
+    50% {
+        transform: scale(0.4) skew(3deg);
+    }
+    75% {
+        transform: scale(0.4) skew(0deg);
+    }
+    100% {
+        transform: scale(0.4) skew(-3deg);
+    }
+}
+
+@keyframes animateTreesHero {
+    0% {
+        transform: scale(0.65) skew(-2deg);
+    }
+    25% {
+        transform: scale(0.65) skew(0deg);
+    }
+    50% {
+        transform: scale(0.65) skew(2deg);
+    }
+    75% {
+        transform: scale(0.65) skew(0deg);
+    }
+    100% {
+        transform: scale(0.65) skew(-2deg);
+    }
+}
+
+@-webkit-keyframes animateTreesHero {
+    0% {
+        transform: scale(0.65) skew(-2deg);
+    }
+    25% {
+        transform: scale(0.65) skew(0deg);
+    }
+    50% {
+        transform: scale(0.65) skew(2deg);
+    }
+    75% {
+        transform: scale(0.65) skew(0deg);
+    }
+    100% {
+        transform: scale(0.65) skew(-2deg);
+    }
+}
+
+@keyframes animateTrees4 {
+    0% {
+        transform: scale(0.85) skew(-3deg);
+    }
+    25% {
+        transform: scale(0.85) skew(0deg);
+    }
+    50% {
+        transform: scale(0.85) skew(3deg);
+    }
+    75% {
+        transform: scale(0.85) skew(0deg);
+    }
+    100% {
+        transform: scale(0.85) skew(-3deg);
+    }
+}
+
+@-webkit-keyframes animateTrees4 {
+    0% {
+        transform: scale(0.85) skew(-3deg);
+    }
+    25% {
+        transform: scale(0.85) skew(0deg);
+    }
+    50% {
+        transform: scale(0.85) skew(3deg);
+    }
+    75% {
+        transform: scale(0.85) skew(0deg);
+    }
+    100% {
+        transform: scale(0.85) skew(-3deg);
+    }
+}
+
+.tree1a {
+    animation: animateTrees0 10s linear infinite;
+}
+
+.tree1b {
+    animation: animateTrees0 15s linear infinite;
+}
+
+.tree1c {
+    animation: animateTrees0 5 linear infinite;
+}
+
+.tree2a {
+    animation: animateTrees1 10s linear infinite;
+}
+
+.tree2b {
+    animation: animateTrees2 15s linear infinite;
+}
+
+.tree2c {
+    animation: animateTrees3 5s linear infinite;
+}
+
+.tree4a {
+    animation: animateTrees4 10s linear infinite;
+}
+
+.tree4b {
+    animation: animateTrees4 15s alternate-reverse infinite;
+}
+
+.tree4c {
+    animation: animateTrees4 17s linear infinite;
+}
+
+.treeHero {
+    animation: animateTreesHero 5s linear infinite;
+}
+
+.tree3a {
+    animation: animateTrees4 15s linear infinite;
+}
+
+.tree3b {
+    animation: animateTrees4 18s reverse infinite;
+}
+
+#trees1a {
+    filter: contrast(88%) brightness(470%) blur(0.15rem);
+    margin-left: 5%;
+    margin-top: 34%;
+}
+
+#trees1b {
+    filter: contrast(88%) brightness(460%) blur(0.15rem);
+    margin-left:-5%;
+    margin-top: 34%;
+}
+
+#trees1c {
+    filter: contrast(88%) brightness(460%) blur(0.15rem);
+    margin-left: 25%;
+    margin-top: 37%;
+}
+
+#trees1d {
+    filter: contrast(88%) brightness(465%) blur(0.15rem);
+    margin-left: 40%;
+    margin-top: 38%;
+}
+
+#trees2a {
+    filter: contrast(88%) brightness(400%) blur(0.15rem);
+    margin-left: 5%;
+    margin-top: 36%;
+}
+
+#trees2b {
+    filter: contrast(88%) brightness(360%) blur(0.15rem);
+    margin-left: 10%;
+    margin-top: 38%;
+}
+
+#trees2c {
+    filter: contrast(88%) brightness(340%) blur(0.15rem);
+    margin-left: -5%;
+    margin-top: 40%;
+}
+
+#trees2d {
+    filter: contrast(85%) brightness(215%) blur(0.15rem);
+    margin-left: 45%;
+    margin-top: 60%;
+}
+
+#trees2d {
+    filter: contrast(85%) brightness(245%) blur(0.15rem);
+    margin-left: 35%;
+    margin-top: 45%;
+}
+
+#trees2e {
+    filter: contrast(85%) brightness(230%) blur(0.15rem);
+    margin-left: 55%;
+    margin-top: 52%;
+}
+
+#trees2f {
+    filter: contrast(85%) brightness(215%) blur(0.15rem);
+    margin-left: 45%;
+    margin-top: 56%;
+}
+
+#trees2g {
+    filter: contrast(85%) brightness(215%) blur(0.15rem);
+    margin-left: 37%;
+    margin-top: 50%;
+}
+
+#trees2h {
+    filter: contrast(88%) brightness(360%) blur(0.15rem);
+    margin-left: 40%;
+    margin-top: 42%;
+}
+
+#trees2i {
+    filter: contrast(88%) brightness(340%) blur(0.15rem);
+    margin-left: 40%;
+    margin-top: 47%;
+}
+
+#trees2j {
+    filter: contrast(88%) brightness(360%) blur(0.15rem);
+    margin-left: 64%;
+    margin-top: 44%;
+}
+
+#trees2k {
+    filter: contrast(88%) brightness(340%) blur(0.15rem);
+    margin-left: 68%;
+    margin-top: 47%;
+}
+
+#trees2l {
+    filter: contrast(88%) brightness(360%) blur(0.15rem);
+    margin-left: 84%;
+    margin-top: 44%;
+}
+
+#trees2m {
+    filter: contrast(88%) brightness(340%) blur(0.15rem);
+    margin-left: 88%;
+    margin-top: 47%;
+}
+
+#trees2n {
+    filter: contrast(88%) brightness(360%) blur(0.15rem);
+    margin-left: 104%;
+    margin-top: 38%;
+}
+
+#trees2o {
+    filter: contrast(88%) brightness(340%) blur(0.15rem);
+    margin-left: 112%;
+    margin-top: 42%;
+}
+
+#trees3a {
+    filter: contrast(88%) brightness(265%) blur(0.025rem);
+    margin-left: -12%;
+    margin-top: 40%;
+}
+
+#trees3b {
+    filter: contrast(88%) brightness(245%) blur(0.025rem);
+    margin-left: -25%;
+    margin-top: 45%;
+}
+
+#trees3c {
+    filter: contrast(88%) brightness(225%) blur(0.05rem);
+    margin-left: -25%;
+    margin-top: 50%;
+}
+
+#trees3d {
+    filter: contrast(88%) brightness(245%) blur(0.025rem);
+    margin-left: 285%;
+    margin-top: 215%;
+}
+
+#trees3e {
+    filter: contrast(88%) brightness(225%) blur(0.05rem);
+    margin-left: 292%;
+    margin-top: 250%;
+}
+
+#trees3f {
+    filter: contrast(88%) brightness(245%) blur(0.025rem);
+    margin-left: 352%;
+    margin-top: 265%;
+}
+
+#trees4a {
+    filter: contrast(88%) brightness(265%) blur(0.025rem);
+    margin-left: 125%;
+    margin-top: 40%;
+}
+
+#trees4b {
+    filter: contrast(88%) brightness(257%) blur(0.125rem);
+    margin-left: 135%;
+    margin-top: 50%;
+}
+
+#trees4c {
+    filter: contrast(88%) brightness(240%) blur(0.125rem);
+    margin-left: 115%;
+    margin-top: 50%;
+}
+
+#trees4d {
+    filter: contrast(88%) brightness(257%) blur(0.125rem);
+    margin-left: 355%;
+    margin-top: 175%;
+}
+
+#trees4e {
+    filter: contrast(88%) brightness(237%) blur(0.125rem);
+    margin-left: 605%;
+    margin-top: 335%;
+}
+
+#treesHero {
+    filter: contrast(90%) brightness(350%);
+    margin-left: 209%;
+    margin-top: 68%;
+}
+
+#treesHeroTrunk {
+    filter: contrast(90%) brightness(350%);
+    margin-left: 209%;
+    margin-top: 67%;
+    transform: scale(0.65)
+}
+
+#treesDead2 {
+    width: 727px;
+    height: 704px;
+    filter: contrast(90%) brightness(270%);
+    margin-left: 213%;
+    margin-top: 37%;
+    transform: scale(0.35)
+}

@@ -1,0 +1,165 @@
+html, body {
+    height: 100%;
+    overflow-y: hidden;
+    /* Hide vertical scrollbar */
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    background: #fef0e3;
+    background-image: -webkit-gradient( linear, left bottom, left top, color-stop(1, #f8c0c3), color-stop(0.75, #fcd7cf), color-stop(0.55, #fef0e3), color-stop(0, #fef0e3));
+    background-image: linear-gradient(to top, #fef0e3 0% #fef0e3 55%, #fcd7cf 75%, #f8c0c3 100%);
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100%;
+    background-image: url('');
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+#block {
+    height: 150%;
+    width: 150%;
+    background-color: #090a17;
+    margin-top: 1000px;
+    filter: contrast(89%) brightness(237%) blur(0.125rem);
+}
+
+#block2 {
+    height: 150%;
+    width: 150%;
+    background-color: #090a17;
+    margin-top: 900px;
+    filter: contrast(88%) brightness(245%) blur(0.025rem);
+}
+
+.scene {
+    margin: 0;
+    padding: 0;
+    bottom: 12.5%;
+    left: -12.5%;
+    padding-top: 50px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.scene button {
+    left: 10%;
+    top: 260px;
+    width: 80%;
+    position: absolute;
+}
+
+.fill {
+    bottom: 5%;
+    left: 5%;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+
+.expand-width {
+    width: 100%;
+}
+
+.border {
+    border: 2px dashed #00ffaa;
+}
+
+.aspect {
+    opacity: 0.2;
+}
+
+.layerElement {
+    size: 150%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-clip: padding-box;
+}
+
+@-webkit-keyframes animateCloud {
+    0% {
+        margin-left: -1000px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+@-moz-keyframes animateCloud {
+    0% {
+        margin-left: -1000px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+@keyframes animateCloud {
+    0% {
+        margin-left: -1000px;
+    }
+    100% {
+        margin-left: 100%;
+    }
+}
+
+#clouds {
+    filter: blur(0.25rem);
+    -webkit-animation: animateCloud 295s linear infinite;
+    -moz-animation: animateCloud 295s linear infinite;
+    animation: animateCloud 295s linear infinite;
+}
+
+#mountains {
+    width: 2880px ;
+    height: 1080px;
+    filter: blur(0.125rem);
+}
+
+#mountainMiddle {
+    width: 2880px ;
+    height: 1080px;
+    filter: blur(0.05rem);
+}
+
+#hills1 {
+    width: 2880px ;
+    height: 1080px;
+    filter: blur(0.025rem);
+}
+
+#hills2 {
+    width: 2880px ;
+    height: 1080px;
+    filter: blur(0.05rem);
+}
+
+#hills3 {
+    width: 2880px ;
+    height: 1080px;
+    filter: blur(0.05rem);
+}
+
+#heroHill {
+    width: 2880px ;
+    height: 1080px;
+}
+
+#smallBird {
+    filter: contrast(25%) brightness(85%) blur(0.125rem);
+    transform: translateY(60vw) scale(0.55);
+}

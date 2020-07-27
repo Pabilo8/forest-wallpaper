@@ -1,0 +1,45 @@
+@-webkit-keyframes animateGrass {
+    0% {
+        transform: scale(0.45) skew(-3deg);
+    }
+    25% {
+        transform: scale(0.45) skew(0deg);
+    }
+    50% {
+        transform: scale(0.45) skew(3deg);
+    }
+    75% {
+        transform: scale(0.45) skew(0deg);
+    }
+    100% {
+        transform: scale(0.45) skew(-3deg);
+    }
+}
+
+.grassClosePlane {
+    animation: animateGrass 7s linear infinite;
+}
+
+#grass4a {
+    filter: contrast(88%) brightness(217%) blur(0.125rem);
+    margin-left: 255%;
+    margin-top: 102%;
+}
+
+#grass4b {
+    filter: contrast(88%) brightness(227%) blur(0.125rem);
+    margin-left: 215%;
+    margin-top: 102%;
+}
+
+#grass4c {
+    filter: contrast(88%) brightness(217%) blur(0.125rem);
+    margin-left: 175%;
+    margin-top: 102%;
+}
+
+#grass4d {
+    filter: contrast(88%) brightness(227%) blur(0.125rem);
+    margin-left: 135%;
+    margin-top: 102%;
+}
