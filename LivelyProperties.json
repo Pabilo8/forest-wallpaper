@@ -1,0 +1,32 @@
+{
+  "backgroundGradient1": {
+    "text": "Background Gradient Color 1",
+    "type": "color",
+    "value": "#f8c0c3"
+  },
+  "backgroundGradient2": {
+    "text": "Background Gradient Color 2",
+    "type": "color",
+    "value": "#fcd7cf"
+  },
+  "backgroundGradient3": {
+    "text": "Background Gradient Color 3",
+    "type": "color",
+    "value": "#fef0e3"
+  },
+  "clouds": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Show clouds"
+  },
+  "bird": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Show the flying bird"
+  },
+  "particles": {
+    "type": "checkbox",
+    "value": true,
+    "text": "Show particles"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "AppVersion": "1.0.0.0",
+  "Title": "Forest Wallpaper",
+  "Thumbnail": "lively_t.jpg",
+  "Preview": "lively_p.gif",
+  "Desc": "A parallax scrolling forest wallpaper",
+  "Author": "Pabilo8",
+  "License": "GNU GPL 3.0",
+  "Contact": "https://github.com/Pabilo8/forest-wallpaper",
+  "Type": 1,
+  "FileName": "index.html",
+  "Arguments": null,
+  "IsAbsolutePath": false
+}
